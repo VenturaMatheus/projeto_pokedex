@@ -1,87 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico">
     <title>Pokédex</title>
 </head>
+
 <body>
-    <h1>Pokédex</h1>
-    <div class="pokeContainer" id="pokeContainer">
-
-
-        <div class="pokemon">
-            <div class="imgContainer">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="Bulbasaur">
-            </div>
-            <div class="info">
-                <span class="number">Nº0001</span>
-                <h3 class="name">Bulbasaur</h3>
-                <small class="type">Tipo: <span>Grama/Venenoso</span></small>
-            </div>
-        </div>
-    
-        <div class="pokemon">
-            <div class="imgContainer">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png" alt="Ivysaur">
-            </div>
-            <div class="info">
-                <span class="number">Nº0002</span>
-                <h3 class="name">Ivysaur</h3>
-                <small class="type">Tipo: <span>Grama/Venenoso</span></small>
-            </div>
-        </div>
-
-        <div class="pokemon">
-            <div class="imgContainer">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png" alt="Venosaur">
-            </div>
-            <div class="info">
-                <span class="number">Nº0003</span>
-                <h3 class="name">Venosaur</h3>
-                <small class="type">Tipo: <span>Grama/Venenoso</span></small>
-            </div>
-        </div>
-
-        <div class="pokemon">
-            <div class="imgContainer">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" alt="Charmander">
-            </div>
-            <div class="info">
-                <span class="number">Nº0004</span>
-                <h3 class="name">Charmander</h3>
-                <small class="type">Tipo: <span>Fogo</span></small>
-            </div>
-        </div>
-
-        <div class="pokemon">
-            <div class="imgContainer">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png" alt="Charmeleon">
-            </div>
-            <div class="info">
-                <span class="number">Nº0005</span>
-                <h3 class="name">Charmeleon</h3>
-                <small class="type">Tipo: <span>Fogo</span></small>
-            </div>
-        </div>
-
-        <div class="pokemon">
-            <div class="imgContainer">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png" alt="Charizard">
-            </div>
-            <div class="info">
-                <span class="number">Nº0006</span>
-                <h3 class="name">Charizard</h3>
-                <small class="type">Tipo: <span>Fogo/Voador</span></small>
-            </div>
-        </div>
-    
-    
-
-    </div>
-
-    
-    <script src="Script.js"></script>
+    <header class="header">
+        <img 
+            src="./assets/pokemon_logo.png"
+            class="pokemon__logo" 
+            alt="pokemon_logo"/>
+    </header>
+   <div class="pokeContainer" id="pokeContainer"></div>
+    <script src="script.js"></script>
+    <footer class="footer">
+        <p class="footer__text">Desenvolvido por Johan Meneses e Matheus Ventura</p>
+    </footer>
 </body>
+    
 </html>
